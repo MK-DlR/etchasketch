@@ -1,5 +1,8 @@
 3/27/25:
 
+- Add first step of project to etchasketchJS
+- Rename etchasketch.js to etchasketchJS.js and etchasketch.css to etchasketchStyle.css
+- Add boilerplate to html file, link css style sheet and javascript file to html file
 - Create changelog document
 - Update README.md with css opacity property resource
 - Create etchasketch.js, etchasketch.html, and etchasketch.css files
