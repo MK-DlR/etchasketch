@@ -1,5 +1,5 @@
 # etchasketch
-odin project etch-a-sketch project
+odin project etch-a-sketch project 
 
 PROJECT
 1. create a webpage with a 16x16 grid of square divs
