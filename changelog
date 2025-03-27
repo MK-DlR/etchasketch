@@ -1,5 +1,6 @@
 3/27/25:
 
+- Fix commit messages per file
 - Add first step of project to etchasketchJS
 - Rename etchasketch.js to etchasketchJS.js and etchasketch.css to etchasketchStyle.css
 - Add boilerplate to html file, link css style sheet and javascript file to html file
