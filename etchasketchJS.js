@@ -1,13 +1,53 @@
-/* etchasketchJS.js */ 
+/* etchasketchJS.js */
 
-// 1. create a 16x16 grid of square divs using JS and Flexbox
-    // put grid squares inside a “container” div (div can be written into HTML file)
-    // use Flexbox to make divs appear as a grid (versus just one on each line)
-    // be careful with borders and margins - they can adjust the size of the squares
+/*
+using JS + flexbox:
+create 16x16 grid
+of squares (divs?)
+with a black border
+and no text content
+inside of a container div (created in html file)
+use flexbox:
+to make divs appear as grid
+be careful with borders and margins
+as they can adjust the size of the squares
+*/
 
-    // troubleshooting: "why isn’t my grid being created?"
-        // is the css stylesheet linked - yes
-        // open browser devtools
-            // check if any errors in JS console
-            // check "elements" panel to see if elements are there but somehow hidden
-            // add `console.log` statements in JS
+// creating container element
+const container = document.querySelector("#container");
+
+document.getElementById("container").style.width = "500px";
+
+// create grid square element
+const gridSquare = document.createElement("div");
+gridSquare.classList.add("gridSquare");
+gridSquare.style.border = "solid";
+gridSquare.style.borderWidth = "thin";
+gridSquare.textContent = "I should become a square";
+
+// add grid square to page
+// container.appendChild(gridSquare);
+
+// set grid dimensions
+let width = 16;
+let height = 16;
+
+// function with for loop to create grid
+function createGrid(horizontalSize, verticalSize) {
+  let grid = "";
+
+  for (let y = 0; y < verticalSize; y++) {
+    let currentRow = "";
+    for (let x = 0; x < horizontalSize; x++) {
+      currentRow += " X ";
+    }
+    if (y < verticalSize - 1) {
+      grid += currentRow + "\n";
+    } else {
+      grid += currentRow;
+    }
+  }
+  return grid;
+}
+
+console.log(createGrid(width, height)); // currently only showing in console log
