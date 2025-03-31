@@ -8,11 +8,12 @@ PROJECT
     c. use Flexbox to make divs appear as a grid (versus just one on each line)
     d. be careful with borders and margins - they can adjust the size of the squares
     e. "why isn’t my grid being created?"
-        e1. is the css stylesheet linked? (yes)
+        e1. is the css stylesheet linked? 
         e2. open browser devtools
             - check if any errors in JS console
             - check "elements" panel to see if elements are there but somehow hidden
             - add `console.log` statements in JS
+Done
 
 2. set up a “hover” effect 
     a. so that the grid divs change color 
