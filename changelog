@@ -1,5 +1,20 @@
+4/1/25:
+
+- Create additional functions to repopulate grid with user input
+- Realign content div using flexbox
+- Remove margin in css
+- Add random background color for page on refresh
+- Create button to set grid with size prompt and invalid input alert
+- Remove gridSquare borders and add container border
+- Add opacity decrease on mouseover
+- Create mouseover and mouseout hover events/listeners
+- Create semi-random color generator function called by mouse events
+- Add header "It's time to draw!"
+- Create semi-random (darker) color generator function for headerText
+
 3/31/25:
 
+- Flex properties added to container and gridSquare in css file
 - Canvas size changed to 850px to create grid of 16 x 16 squares
 - Adjust gridSquare divs to 50px by 50x with no text content inside
 - Move gridSquare creation inside of createGrid function
