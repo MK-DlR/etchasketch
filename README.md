@@ -23,6 +23,7 @@ Done
             - there are multiple ways to change the color of the divs, including: 
                 - adding a new class to the div
                 - changing the div’s background color using JS
+Done
         
 3. add a button on the top of the screen 
     a. that will send the user a popup asking for the number of squares per side for the new grid
@@ -33,12 +34,15 @@ Done
         b1. and how you can make a JS function run when one is clicked
         b2. also check out `prompts`
     c. you should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used
+Done
 
 EXTRA CREDIT
 1. rather than squares being the same color throughout the grid
     a. randomize the squares’ RGB values with each interaction
+Done
 2. implement a progressive darkening effect 
     a. where each interaction darkens the square by 10%
         a1. goal is to achieve a fully black (or completely colored) square
         a2. in only ten interactions
         a3. see mdn docs article about css opacity property: https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
+Done
